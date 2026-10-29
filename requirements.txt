@@ -1,0 +1,12 @@
+SpeechRecognition 
+pyaudio 
+faster-whisper 
+numpy
+transformers
+torch
+torchaudio
+
+
+
+
+
