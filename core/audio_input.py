@@ -17,8 +17,8 @@ print("Ładowanie modelu")
 model = WhisperModel("large-v3-turbo", device="cuda", compute_type="float16")
 
 recognizer = sr.Recognizer()
-recognizer.pause_threshold = 1.0
-recognizer.non_speaking_duration = 0.8  
+recognizer.pause_threshold = 0.9         
+recognizer.non_speaking_duration = 0.6   
 recognizer.phrase_threshold = 0.1
 recognizer.dynamic_energy_threshold = True
 
